@@ -1,0 +1,13 @@
+HYNISH ARCHIVE - PUBLIC EDITION
+The Panchsheel Hynish story from public records, to 4 November 2026
+
+1. Extract the whole ZIP to a folder first.
+2. Double-click index.html. It works without internet (live maps need a connection).
+3. "The story" tells the history in six chapters. "Structure & 3D" shows the twelve towers in a model you can rotate.
+4. Timeline, Case tracker, Document library, Findings, Not yet public and Source register let you check every statement.
+5. Detailed_Brief.html is the printable full text; Detailed_Brief.txt is plain text; Detailed_Brief.pdf is the 45-page portable copy.
+6. records/ holds public official records (land, approvals, plans, completion certificate, AOA public notices, laws). documents/ holds court orders and case-status captures.
+7. research/ holds the timeline, sources, towers, document register, duplicate report and integrity check as CSV/JSON/TXT.
+
+Only public information is included. Private messages and documents with buyers' personal details are excluded.
+Sources disagree in places; both versions are shown. This is a dated archive, not live status, and not legal advice.

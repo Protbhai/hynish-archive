@@ -1,0 +1,125 @@
+- heading "High Court of Judicature at Allahabad A A- A A+" [level=2]:
+  - text: High Court of Judicature at Allahabad
+  - emphasis:
+    - list:
+      - button "A"
+      - button "A-"
+      - button "A"
+      - button "A+"
+- separator
+- 'heading "Case Status : Search by Party Name" [level=3]'
+- text: 
+- heading "Back  Print" [level=3]:
+  - button "Back"
+  - button " Print":
+    - generic: 
+    - text: Print
+- heading [level=4]:
+  - strong
+- heading "PENDING" [level=3]:
+  - strong: PENDING
+- heading "Case Status - WRIT - C ( WRIC )-[45508/2026]" [level=3]:
+  - text: Case Status -
+  - strong: WRIT - C ( WRIC )-[45508/2026]
+- 'heading "[ Diary/Token No.: 266021102026 ]" [level=5]'
+- generic: "Generated on : 03-11-2026 at 10:58:44 pm"
+- table:
+  - rowgroup:
+    - 'row "Filing No. CIVIL12/276142/2026 Filing Date : 29-10-2026"':
+      - rowheader "Filing No."
+      - cell "CIVIL12/276142/2026"
+      - 'cell "Filing Date : 29-10-2026"'
+    - 'row "CNR UPHC056633602026 Date of Registration : 03-11-2026"':
+      - rowheader "CNR"
+      - cell "UPHC056633602026":
+        - strong: UPHC056633602026
+      - 'cell "Date of Registration : 03-11-2026"'
+- heading "Case Status" [level=3]
+- table:
+  - rowgroup:
+    - row "First Hearing Date":
+      - columnheader "First Hearing Date"
+      - cell
+    - row "Next Hearing Date":
+      - columnheader "Next Hearing Date"
+      - cell
+    - row "Stage of Case Newly Fresh":
+      - rowheader "Stage of Case"
+      - cell "Newly Fresh"
+    - row "Coram":
+      - columnheader "Coram"
+      - cell
+    - row "Bench Type Single Bench":
+      - rowheader "Bench Type"
+      - cell "Single Bench"
+    - row "Causelist Type Fresh List":
+      - rowheader "Causelist Type"
+      - cell "Fresh List"
+    - row "State UTTARPRADESH":
+      - rowheader "State"
+      - cell "UTTARPRADESH"
+    - row "District GAUTAM BUDDH NAGAR":
+      - rowheader "District"
+      - cell "GAUTAM BUDDH NAGAR"
+- heading "Petitioner/Respondent and their Advocate(s)" [level=3]
+- table:
+  - rowgroup:
+    - row "Petitioner Respondent":
+      - columnheader "Petitioner"
+      - columnheader "Respondent"
+  - rowgroup:
+    - row "1. PANCHSHEEL HYNISH APARTMENT OWNERS AND ANOTHER 2. VINOD NEGI Advocate - OM PRAKASH SINGH(A/O0122/2013 ),GAUTAM BAGHEL(A/G0064/2012 ) 1. STATE OF U.P. AND 3 OTHERS 2. DEPUTY REGISTRAR FIRM 3. ELECTION OFFICER 4. ANUJ KUMAR Advocate - C.S.C.(CSC/2012 ),RAVINDRA KUMAR DWIVEDI(A/R1218/2012 ),SHUBHAM DWIVEDI(A/S1285/2024 )":
+      - cell "1. PANCHSHEEL HYNISH APARTMENT OWNERS AND ANOTHER 2. VINOD NEGI Advocate - OM PRAKASH SINGH(A/O0122/2013 ),GAUTAM BAGHEL(A/G0064/2012 )":
+        - strong: "1."
+        - text: PANCHSHEEL HYNISH APARTMENT OWNERS AND ANOTHER
+        - strong: "2."
+        - text: VINOD NEGI
+        - strong: Advocate -
+        - text: OM PRAKASH SINGH(A/O0122/2013 ),GAUTAM BAGHEL(A/G0064/2012 )
+      - cell "1. STATE OF U.P. AND 3 OTHERS 2. DEPUTY REGISTRAR FIRM 3. ELECTION OFFICER 4. ANUJ KUMAR Advocate - C.S.C.(CSC/2012 ),RAVINDRA KUMAR DWIVEDI(A/R1218/2012 ),SHUBHAM DWIVEDI(A/S1285/2024 )":
+        - strong: "1."
+        - text: STATE OF U.P. AND 3 OTHERS
+        - strong: "2."
+        - text: DEPUTY REGISTRAR FIRM
+        - strong: "3."
+        - text: ELECTION OFFICER
+        - strong: "4."
+        - text: ANUJ KUMAR
+        - strong: Advocate -
+        - text: C.S.C.(CSC/2012 ),RAVINDRA KUMAR DWIVEDI(A/R1218/2012 ),SHUBHAM DWIVEDI(A/S1285/2024 )
+- heading "Category Details" [level=3]
+- table:
+  - rowgroup:
+    - row "Category SOCIETIES REGISTRATION ACT 1860 (250000)":
+      - rowheader "Category"
+      - cell "SOCIETIES REGISTRATION ACT 1860 (250000)"
+    - row "Sub Category Miscellaneous (250190)":
+      - rowheader "Sub Category"
+      - cell "Miscellaneous (250190)"
+- button "View Judgement / Order" [expanded]
+- heading "Order/Judgement" [level=3]
+- table:
+  - rowgroup:
+    - row "# Date Order/Judgement Combined Order/Judgment Sheet":
+      - columnheader "#":
+        - strong: "#"
+      - columnheader "Date"
+      - columnheader "Order/Judgement"
+      - columnheader "Combined Order/Judgment Sheet"
+  - rowgroup:
+    - row "Order/Judgement Not Found!":
+      - cell "Order/Judgement Not Found!"
+- paragraph
+- separator
+- strong: "Disclaimer:"
+- text: Status report is based on data available on CCMS servers.
+- paragraph
+- heading "Back  Print" [level=3]:
+  - button "Back"
+  - button " Print":
+    - generic: 
+    - text: Print
+- paragraph:
+  - text: Page rendered in
+  - strong: "0.0109"
+  - text: seconds.

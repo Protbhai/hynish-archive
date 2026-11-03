@@ -1,0 +1,7 @@
+HOW THE RECORDS WERE CHECKED
+All 59 files under records/ and documents/ are byte-identical (SHA-256) to the copies collected for the working archive.
+Records under records/ are copies of documents the builder filed publicly on UP RERA, association notices published on phaoa.in, and statutes/judgments.
+Records under records/06_official_records/ are official documents (a High Court judgment, Authority minutes, an election officer's letter, the Deed of Declaration and NPCL notices) that reached residents through WhatsApp; each was read in full, and official records that name private residents are cited in the source register but not copied here.
+Court files under documents/ come from the Allahabad High Court portal or a public judgment mirror (marked as such).
+Scanned official records were read page by page where the archive relies on them (review label "Key contents reviewed").
+Identical bytes prove an unchanged copy, not authenticity or legal correctness.

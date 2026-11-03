@@ -1,0 +1,198 @@
+- heading "High Court of Judicature at Allahabad A A- A A+" [level=2]:
+  - text: High Court of Judicature at Allahabad
+  - emphasis:
+    - list:
+      - button "A"
+      - button "A-"
+      - button "A"
+      - button "A+"
+- separator
+- 'heading "Case Status : Search by Party Name" [level=3]'
+- text: 
+- heading "Back  Print" [level=3]:
+  - button "Back"
+  - button " Print":
+    - generic: 
+    - text: Print
+- heading [level=4]:
+  - strong
+- heading "DISPOSED" [level=3]:
+  - strong: DISPOSED
+- heading "Case Status - WRIT - C ( WRIC )-[18764/2026]" [level=3]:
+  - text: Case Status -
+  - strong: WRIT - C ( WRIC )-[18764/2026]
+- 'heading "[ Diary/Token No.: 10863052026 ]" [level=5]'
+- generic: "Generated on : 03-11-2026 at 11:02:57 pm"
+- table:
+  - rowgroup:
+    - 'row "Filing No. CIVIL12/112933/2026 Filing Date : 07-05-2026"':
+      - rowheader "Filing No."
+      - cell "CIVIL12/112933/2026"
+      - 'cell "Filing Date : 07-05-2026"'
+    - 'row "CNR UPHC052817352026 Date of Registration : 08-05-2026"':
+      - rowheader "CNR"
+      - cell "UPHC052817352026":
+        - strong: UPHC052817352026
+      - 'cell "Date of Registration : 08-05-2026"'
+- heading "Case Status" [level=3]
+- table:
+  - rowgroup:
+    - row "First Hearing Date 13th May 2026":
+      - rowheader "First Hearing Date"
+      - cell "13th May 2026"
+    - row "Date of Decision 13th May 2026":
+      - rowheader "Date of Decision"
+      - cell "13th May 2026"
+    - row "Case Status Case Disposed":
+      - rowheader "Case Status"
+      - cell "Case Disposed"
+    - row "Nature of Disposal Disposed off/Decided on Merits":
+      - rowheader "Nature of Disposal"
+      - cell "Disposed off/Decided on Merits"
+    - row "Stage of Case Newly Fresh":
+      - rowheader "Stage of Case"
+      - cell "Newly Fresh"
+    - row "Coram HON’BLE JUSTICE SIDDHARTH NANDAN":
+      - rowheader "Coram"
+      - cell "HON’BLE JUSTICE SIDDHARTH NANDAN"
+    - row "Bench Type Single Bench":
+      - rowheader "Bench Type"
+      - cell "Single Bench"
+    - row "Causelist Type Fresh List":
+      - rowheader "Causelist Type"
+      - cell "Fresh List"
+    - row "State UTTARPRADESH":
+      - rowheader "State"
+      - cell "UTTARPRADESH"
+    - row "District GAUTAM BUDDH NAGAR":
+      - rowheader "District"
+      - cell "GAUTAM BUDDH NAGAR"
+- heading "Petitioner/Respondent and their Advocate(s)" [level=3]
+- table:
+  - rowgroup:
+    - row "Petitioner Respondent":
+      - columnheader "Petitioner"
+      - columnheader "Respondent"
+  - rowgroup:
+    - row "1. PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER 2. VINOD NEGI Advocate - GAUTAM BAGHEL(A/G0064/2012 ),OM PRAKASH SINGH(A/O0122/2013 ) 1. STATE OF U.P. AND 3 OTHERS 2. DEPUTY REGISTRAR, FIRMS, SOCIETIES 3. PRESCRIBED AUTHORITY/SUB-DIVISIONAL MAGISTRATE 4. ANUJ KUMAR Advocate - C.S.C.(CSC/2012 )":
+      - cell "1. PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER 2. VINOD NEGI Advocate - GAUTAM BAGHEL(A/G0064/2012 ),OM PRAKASH SINGH(A/O0122/2013 )":
+        - strong: "1."
+        - text: PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER
+        - strong: "2."
+        - text: VINOD NEGI
+        - strong: Advocate -
+        - text: GAUTAM BAGHEL(A/G0064/2012 ),OM PRAKASH SINGH(A/O0122/2013 )
+      - cell "1. STATE OF U.P. AND 3 OTHERS 2. DEPUTY REGISTRAR, FIRMS, SOCIETIES 3. PRESCRIBED AUTHORITY/SUB-DIVISIONAL MAGISTRATE 4. ANUJ KUMAR Advocate - C.S.C.(CSC/2012 )":
+        - strong: "1."
+        - text: STATE OF U.P. AND 3 OTHERS
+        - strong: "2."
+        - text: DEPUTY REGISTRAR, FIRMS, SOCIETIES
+        - strong: "3."
+        - text: PRESCRIBED AUTHORITY/SUB-DIVISIONAL MAGISTRATE
+        - strong: "4."
+        - text: ANUJ KUMAR
+        - strong: Advocate -
+        - text: C.S.C.(CSC/2012 )
+- heading "Category Details" [level=3]
+- table:
+  - rowgroup:
+    - row "Category SOCIETIES REGISTRATION ACT 1860 (250000)":
+      - rowheader "Category"
+      - cell "SOCIETIES REGISTRATION ACT 1860 (250000)"
+    - row "Sub Category Miscellaneous (250190)":
+      - rowheader "Sub Category"
+      - cell "Miscellaneous (250190)"
+- button "View IA Details" [expanded]
+- heading "IA Details" [level=3]
+- table:
+  - rowgroup:
+    - row "Application(s) Number Party Date of Filing Next / Disposal Date IA Status":
+      - columnheader "Application(s) Number"
+      - columnheader "Party"
+      - columnheader "Date of Filing"
+      - columnheader "Next / Disposal Date"
+      - columnheader "IA Status"
+  - rowgroup:
+    - row "IA/1/2026 Classification :Stay Application PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER Vs STATE OF U.P. AND 3 OTHERS Applied by (Advocate) :OM PRAKASH SINGH 08-05-2026 Pending":
+      - cell "IA/1/2026 Classification :Stay Application"
+      - cell "PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER Vs STATE OF U.P. AND 3 OTHERS Applied by (Advocate) :OM PRAKASH SINGH":
+        - text: PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER Vs STATE OF U.P. AND 3 OTHERS
+        - text: Applied by (Advocate) :OM PRAKASH SINGH
+      - cell "08-05-2026"
+      - cell
+      - cell "Pending"
+    - 'row "IA/2/2026 Classification :Correction Application PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER Vs STATE OF U.P. AND 3 OTHERS Applied by (Advocate) :OM PRAKASH SINGH 18-05-2026 20-05-2026 ( Bench ID : B18197 ) Disposed"':
+      - cell "IA/2/2026 Classification :Correction Application"
+      - cell "PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER Vs STATE OF U.P. AND 3 OTHERS Applied by (Advocate) :OM PRAKASH SINGH":
+        - text: PANCHSHEEL HYNISH APARTMENT OWNERS ASSOCIATION AND ANOTHER Vs STATE OF U.P. AND 3 OTHERS
+        - text: Applied by (Advocate) :OM PRAKASH SINGH
+      - cell "18-05-2026"
+      - 'cell "20-05-2026 ( Bench ID : B18197 )"'
+      - cell "Disposed"
+- button "View Listing History" [expanded] [active]
+- heading "Listing History" [level=3]
+- table:
+  - rowgroup:
+    - row "Cause List Type Hon'ble Mr./Ms./Dr. Justice \\ In chamber of Registrar(s)/Jt. Registrar(s) Hon'ble Court/Serial No. Listing Date Short Order":
+      - columnheader "Cause List Type"
+      - columnheader "Hon'ble Mr./Ms./Dr. Justice \\ In chamber of Registrar(s)/Jt. Registrar(s)":
+        - text: Hon'ble Mr./Ms./Dr. Justice
+        - text: \ In chamber of Registrar(s)/Jt. Registrar(s)
+      - columnheader "Hon'ble Court/Serial No."
+      - columnheader "Listing Date"
+      - columnheader "Short Order"
+  - rowgroup:
+    - row "Correction Application List HON’BLE JUSTICE SIDDHARTH NANDAN Ct.:38 , Sl.:2 20-05-2026":
+      - cell "Correction Application List"
+      - cell "HON’BLE JUSTICE SIDDHARTH NANDAN"
+      - cell "Ct.:38 , Sl.:2"
+      - cell "20-05-2026"
+      - cell
+    - row "Fresh List HON’BLE JUSTICE SIDDHARTH NANDAN Ct.:38 , Sl.:3 13-05-2026":
+      - cell "Fresh List"
+      - cell "HON’BLE JUSTICE SIDDHARTH NANDAN"
+      - cell "Ct.:38 , Sl.:3"
+      - cell "13-05-2026"
+      - cell
+- button "View Judgement / Order" [expanded]
+- heading "Order/Judgement" [level=3]
+- table:
+  - rowgroup:
+    - row "# Date Order/Judgement Combined Order/Judgment Sheet":
+      - columnheader "#":
+        - strong: "#"
+      - columnheader "Date"
+      - columnheader "Order/Judgement"
+      - columnheader "Combined Order/Judgment Sheet"
+  - rowgroup:
+    - row "1 20-05-2026 view view":
+      - cell "1":
+        - strong: "1"
+      - cell "20-05-2026"
+      - cell "view":
+        - link "view":
+          - /url: https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadJudgmentDocument.do?judgmentID=13413263
+      - cell "view":
+        - link "view":
+          - /url: https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadOrderSheet.do?h=A&t=WRIC&n=18764&y=2026&m=C
+    - row "2 13-05-2026 view":
+      - cell "2":
+        - strong: "2"
+      - cell "13-05-2026"
+      - cell "view":
+        - link "view":
+          - /url: https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadJudgmentDocument.do?judgmentID=13394436
+- paragraph
+- separator
+- strong: "Disclaimer:"
+- text: Status report is based on data available on CCMS servers.
+- paragraph
+- heading "Back  Print" [level=3]:
+  - button "Back"
+  - button " Print":
+    - generic: 
+    - text: Print
+- paragraph:
+  - text: Page rendered in
+  - strong: "0.0109"
+  - text: seconds.

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hynish Archive — private edition</title>
+<style>
+:root{--navy:#142d37;--ink:#1c343c;--muted:#66767b;--teal:#1e746b;--line:#dce3df;--paper:#f6f5ef;--white:#fff;--gold:#b98a3a;--bad:#a5432f}
+@media (prefers-color-scheme:dark){:root{--ink:#e3ecea;--muted:#9fb1b0;--line:#30474d;--paper:#0f1e24;--white:#16282f;--teal:#5fb3a7;--bad:#e08a74}}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--paper);color:var(--ink);font:15px/1.6 'Segoe UI',Arial,sans-serif;padding:16px}
+main{width:100%;max-width:420px;background:var(--white);border:1px solid var(--line);padding:34px 30px}
+.mark{display:inline-grid;place-items:center;border:1px solid var(--gold);width:42px;height:48px;font:35px Georgia,serif;color:var(--gold)}
+h1{font:28px/1.2 Georgia,serif;margin:18px 0 6px}p{color:var(--muted);margin:0 0 18px}
+label{display:block;font-size:13px;margin-bottom:6px}input{width:100%;font:inherit;padding:11px 12px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+button{font:inherit;margin-top:14px;width:100%;padding:11px;border:0;background:var(--teal);color:#fff;cursor:pointer}button.secondary{background:transparent;color:var(--teal);border:1px solid var(--line)}
+button:disabled{opacity:.6;cursor:wait}.msg{min-height:22px;margin-top:12px;font-size:13px}.bad{color:var(--bad)}.small{font-size:12px;margin-top:22px}
+input:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style></head>
+<body><main>
+<span class="mark">H</span>
+<h1>Private edition</h1>
+<p>Members-only records. Everything here is encrypted; your password unlocks it in this browser only.</p>
+<form id="f" autocomplete="off">
+<label for="pw">Password</label>
+<input id="pw" type="password" autocomplete="current-password" required>
+<button id="go" type="submit">Unlock</button>
+</form>
+<div id="open" hidden><button id="enter" type="button">Open the private edition</button><button id="lock" class="secondary" type="button">Lock this device</button></div>
+<div id="msg" class="msg" role="status"></div>
+<p class="small">This device stays unlocked until you press "Lock this device". Public edition: <a href="../">protbhai.github.io/hynish-archive</a></p>
+</main>
+<script>
+(()=>{'use strict';
+const DB='hynish-private',STORE='k',$=s=>document.querySelector(s);
+const idb=()=>new Promise((ok,no)=>{const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>r.result.createObjectStore(STORE);r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error)});
+const tx=async(mode,fn)=>{const db=await idb();return new Promise((ok,no)=>{const t=db.transaction(STORE,mode);const q=fn(t.objectStore(STORE));t.oncomplete=()=>ok(q&&q.result);t.onerror=()=>no(t.error)})};
+const say=(t,bad)=>{$('#msg').textContent=t;$('#msg').className='msg'+(bad?' bad':'')};
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+const ready=('serviceWorker' in navigator)?navigator.serviceWorker.register('sw.js',{scope:'./'}).then(()=>navigator.serviceWorker.ready):Promise.reject(new Error('This browser cannot open the private edition (no service workers).'));
+const show=unlocked=>{$('#f').hidden=unlocked;$('#open').hidden=!unlocked};
+tx('readonly',s=>s.get('key')).then(k=>show(!!k)).catch(()=>show(false));
+$('#f').addEventListener('submit',async e=>{
+  e.preventDefault();$('#go').disabled=true;say('Unlocking… (a few seconds)');
+  try{
+    const cfg=await (await fetch('config.json',{cache:'no-store'})).json();
+    const base=await crypto.subtle.importKey('raw',new TextEncoder().encode($('#pw').value),'PBKDF2',false,['deriveKey']);
+    const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(cfg.salt),iterations:cfg.iterations,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
+    const m=new Uint8Array(await (await fetch('manifest.bin',{cache:'no-store'})).arrayBuffer());
+    try{await crypto.subtle.decrypt({name:'AES-GCM',iv:m.slice(0,12)},key,m.slice(12))}catch(_){say('Wrong password.',true);return}
+    await tx('readwrite',s=>s.put(key,'key'));await ready;$('#pw').value='';location.href='app/index.html';
+  }catch(err){say(String(err.message||err),true)}finally{$('#go').disabled=false}
+});
+$('#enter').addEventListener('click',async()=>{try{await ready;location.href='app/index.html'}catch(err){say(String(err.message||err),true)}});
+$('#lock').addEventListener('click',async()=>{await tx('readwrite',s=>s.delete('key'));try{(await ready).active.postMessage('locked')}catch(_){}show(false);say('Locked. This browser can no longer open the private edition without the password.')});
+})();
+</script>
+</body></html>

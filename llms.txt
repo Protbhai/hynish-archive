@@ -1,0 +1,39 @@
+# Hynish Archive
+
+> A dated public record of Panchsheel Hynish, a housing society on Plot GH-08A, Sector-1, Greater Noida (West), India: the land, approvals, construction, handover, the owners' association (AOA), its elections, electricity, and the court cases. Compiled from public records to 2026-11-04. Not a live status service. Not legal advice.
+
+This file is for AI readers. The same data that the website shows is published as plain JSON files.
+
+## Data files
+
+- [index.json](https://protbhai.github.io/hynish-archive/api/v1/index.json): what is here, the fixed shape of every record, counts, limitations, and the hash of each data file. Read this first.
+- [records.json](https://protbhai.github.io/hynish-archive/api/v1/records.json): every record in one file (92 events, 87 sources, 5 cases, 24 findings, 24 missing records, 59 documents, 6 chapters, 15 society facts).
+- [events.json](https://protbhai.github.io/hynish-archive/api/v1/events.json): the dated timeline.
+- [cases.json](https://protbhai.github.io/hynish-archive/api/v1/cases.json): court and authority cases, with parties as the court titles them, forum, prayers and outcome.
+- [sources.json](https://protbhai.github.io/hynish-archive/api/v1/sources.json): the source register. Each event, finding and case points to source IDs.
+- [findings.json](https://protbhai.github.io/hynish-archive/api/v1/findings.json): what the records do and do not establish.
+- [missing.json](https://protbhai.github.io/hynish-archive/api/v1/missing.json): records not yet held, who holds them, and leads.
+- [documents.json](https://protbhai.github.io/hynish-archive/api/v1/documents.json): held files with link, size and SHA-256.
+- [text.json](https://protbhai.github.io/hynish-archive/api/v1/text.json): text of the 21 documents that have machine-readable text, by page. One document: `https://protbhai.github.io/hynish-archive/api/v1/text/<DOC id>.json`.
+- [society.json](https://protbhai.github.io/hynish-archive/api/v1/society.json): plot, towers, homes, parking and other fixed facts from the approved plan.
+- [changes.json](https://protbhai.github.io/hynish-archive/api/v1/changes.json): change log (records added, changed, removed).
+
+## How to use it
+
+- Every record has an `evidence` label. Say it with the fact. "Reported" means a news report, attributed and not adopted. "Allegation" is an allegation. "Lead" is unverified.
+- Every record has `last_checked`. Statuses are as of that date. For anything later, check the court or authority site.
+- IDs: T and W are events, S sources, C cases, F findings, M missing records, DOC documents. In these files the `uid` is `pub:` plus the ID.
+- Case titles follow the court's own cause title.
+- Phone, PAN, Aadhaar-style and flat numbers are masked in document text. Do not try to restore them.
+- This site holds public records only. Private messages and members-only records are not here.
+- The site's robots.txt asks crawlers to stay out, because the owner keeps it out of search engines. These files are for an AI that a person has pointed here, not for indexing.
+
+## MCP server
+
+- [hynish-mcp.mjs](https://protbhai.github.io/hynish-archive/mcp/hynish-mcp.mjs): one file, no dependencies, Node 18 or newer. It serves these files as eight read-only tools: `search`, `get_record`, `timeline`, `case_status`, `get_document`, `changes_since`, `missing_records`, `society_facts`.
+- [Setup notes](https://protbhai.github.io/hynish-archive/mcp/README.md)
+
+## Pages for people
+
+- [The archive](https://protbhai.github.io/hynish-archive/): overview, timeline, cases, findings, sources, documents, missing records.
+- [Detailed brief](https://protbhai.github.io/hynish-archive/Detailed_Brief.html)

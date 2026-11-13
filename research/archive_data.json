@@ -785,6 +785,24 @@
       "summary": "\"Hynish Day\" on 7 September marks the 2024 handover; a resident cricket league reached Season 4 in mid-2025 (52 players, 4 captains); an AOA deck shows festivals, national-day events, health and children's camps, plantation and cleanliness drives. Self-published by organisers: shows that events were held, not attendance. Not reproduced here because they carry residents' names and photographs.",
       "path": "",
       "date": "2025-09-07"
+    },
+    {
+      "id": "S111",
+      "title": "eCourts case status: Civil Suit 404/2025, Panchsheel Hynish Apartment Owners Association v. Panchsheel Buildtech Pvt. Ltd.",
+      "url": "https://services.ecourts.gov.in/ecourtindia_v6/?p=casestatus/index",
+      "kind": "Court record (eCourts case status)",
+      "summary": "Gautam Buddh Nagar district courts, CNR UPGB050005362025. Filed 27 Feb 2025, registered 28 Feb 2025 as Civil Suit 404/2025. Plaintiff: Panchsheel Hynish Apartment Owners Association. Defendant: Panchsheel Buildtech Pvt. Ltd. First hearing 28 Mar 2025. Moved on 18 Apr 2026 from Civil Judge (Sr. Div.) to Addl. Civil Judge (Sr. Div.)-III. Every listing from Mar 2025 to Oct 2026 shows the stage \"Disposal of 6C\"; next hearing 26 Nov 2026. The site gives no plaint, order or subject. Read 14 Nov 2026.",
+      "path": "",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "S112",
+      "title": "eCourts case status: Warrant or Summons case 5774/2025 (criminal complaint), Panchsheel Hynish Apartment v. Panchshel Buildtech",
+      "url": "https://services.ecourts.gov.in/ecourtindia_v6/?p=casestatus/index",
+      "kind": "Court record (eCourts case status)",
+      "summary": "Gautam Buddh Nagar district courts, CNR UPGB040090592025. Filed and registered 17 Feb 2025 as \"Warrant or Summons\" case 5774/2025, a criminal complaint under section 210(1)(a) of the Bharatiya Nagarik Suraksha Sanhita (a magistrate taking cognizance of an offence on a complaint), police station Bisrakh (eCourts: Bisrikh). Complainant: Panchsheel Hynish Apartment. Accused: Panchshel Buildtech (as spelled). First hearing 17 Mar 2025. Moved on 1 Mar 2025 to Civil Judge (Sr. Div.)/FTC and on 24 Feb 2026 to ACJM-III. Every listing from Apr 2025 to Nov 2026 is at the stage eCourts labels \"Statement U/S 200 CrPc\" (examining the complainant on oath; BNSS s.223), a step before a magistrate decides whether to summon the accused; next hearing 16 Jan 2027. No complaint text or order is online. Read 14 Nov 2026.",
+      "path": "",
+      "date": "2026-11-14"
     }
   ],
   "timeline": [
@@ -1328,6 +1346,30 @@
         "S44"
       ],
       "case": "C01"
+    },
+    {
+      "id": "W28",
+      "date": "2025-02-17",
+      "title": "AOA files a criminal complaint against the builder in the magistrate court",
+      "topic": "Related cases",
+      "status": "Court record",
+      "body": "Panchsheel Hynish Apartment (as listed) v. Panchshel Buildtech, Warrant or Summons case 5774/2025, G B Nagar (BNSS s.210(1)(a), police station Bisrakh). Still at the complainant's-statement stage in Nov 2026; subject not shown online.",
+      "sources": [
+        "S112"
+      ],
+      "case": "C09"
+    },
+    {
+      "id": "W29",
+      "date": "2025-02-27",
+      "title": "AOA files a civil suit against the builder",
+      "topic": "Related cases",
+      "status": "Court record",
+      "body": "Panchsheel Hynish Apartment Owners Association v. Panchsheel Buildtech Pvt. Ltd., Civil Suit 404/2025, G B Nagar. Pending; next hearing 26 Nov 2026; subject not shown online.",
+      "sources": [
+        "S111"
+      ],
+      "case": "C08"
     },
     {
       "id": "T78",
@@ -2021,6 +2063,38 @@
         "S13",
         "S14"
       ]
+    },
+    {
+      "id": "C08",
+      "title": "AOA civil suit against the builder (2025)",
+      "number": "Civil Suit 404/2025; CNR UPGB050005362025",
+      "topic": "Related cases",
+      "status": "Pending; next hearing 26 Nov 2026",
+      "parties": "Panchsheel Hynish Apartment Owners Association (plaintiff) v. Panchsheel Buildtech Pvt. Ltd. (defendant)",
+      "forum": "Addl. Civil Judge (Sr. Div.)-III, Gautam Buddh Nagar (moved there from Civil Judge (Sr. Div.) on 18 Apr 2026)",
+      "summary": "Filed by the AOA on 27 Feb 2025. Every listing since March 2025 shows the stage \"Disposal of 6C\". The eCourts page gives no plaint, order or subject, so what the AOA asks for is not known from this record.",
+      "prayers": "Not known: the plaint is not online.",
+      "outcome": "Pending.",
+      "missing": "The plaint, any written statement and the order sheets; who authorised the suit for the AOA.",
+      "sources": [
+        "S111"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "AOA criminal complaint against the builder (2025)",
+      "number": "Warrant or Summons case 5774/2025 (criminal complaint); CNR UPGB040090592025",
+      "topic": "Related cases",
+      "status": "Pending at the complainant's-statement stage; next hearing 16 Jan 2027",
+      "parties": "Panchsheel Hynish Apartment (complainant) v. Panchshel Buildtech (accused), as spelled on eCourts",
+      "forum": "ACJM-III, Gautam Buddh Nagar (earlier Civil Judge Jr. Div./FTC-1 and Civil Judge (Sr. Div.)/FTC); police station Bisrakh",
+      "summary": "Filed by the AOA (listed as Panchsheel Hynish Apartment) on 17 Feb 2025 under BNSS s.210(1)(a), the provision for a magistrate taking cognizance of an offence on a complaint. Since April 2025 every listing has been at the stage eCourts labels \"Statement U/S 200 CrPc\" (examining the complainant on oath; BNSS s.223), a step before the magistrate decides whether to summon the accused; the listings show no summoning stage. The offences alleged are not shown online.",
+      "prayers": "Not known: the complaint is not online.",
+      "outcome": "Pending.",
+      "missing": "The complaint, the offences alleged, and the order sheets.",
+      "sources": [
+        "S112"
+      ]
     }
   ],
   "findings": [
@@ -2611,6 +2685,19 @@
         "S79",
         "S58",
         "S20"
+      ]
+    },
+    {
+      "id": "M28",
+      "topic": "Related cases",
+      "title": "What the AOA's 2025 civil suit and criminal complaint against the builder are about",
+      "holder": "The AOA and its advocates; the G B Nagar court (certified copies)",
+      "reason": "eCourts lists both cases but shows no plaint, complaint, offences or orders.",
+      "status": "Missing",
+      "lead": "Ask the AOA for copies, or apply for certified copies at the district court copying section with the CNR numbers UPGB050005362025 and UPGB040090592025.",
+      "sources": [
+        "S111",
+        "S112"
       ]
     }
   ],

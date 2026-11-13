@@ -803,6 +803,33 @@
       "summary": "Gautam Buddh Nagar district courts, CNR UPGB040090592025. Filed and registered 17 Feb 2025 as \"Warrant or Summons\" case 5774/2025, a criminal complaint under section 210(1)(a) of the Bharatiya Nagarik Suraksha Sanhita (a magistrate taking cognizance of an offence on a complaint), police station Bisrakh (eCourts: Bisrikh). Complainant: Panchsheel Hynish Apartment. Accused: Panchshel Buildtech (as spelled). First hearing 17 Mar 2025. Moved on 1 Mar 2025 to Civil Judge (Sr. Div.)/FTC and on 24 Feb 2026 to ACJM-III. Every listing from Apr 2025 to Nov 2026 is at the stage eCourts labels \"Statement U/S 200 CrPc\" (examining the complainant on oath; BNSS s.223), a step before a magistrate decides whether to summon the accused; next hearing 16 Jan 2027. No complaint text or order is online. Read 14 Nov 2026.",
       "path": "",
       "date": "2026-11-14"
+    },
+    {
+      "id": "S115",
+      "title": "NGT order of 15 Nov 2022 in OA 392/2022, Prasoon Pant v. Union of India (groundwater extraction by Noida projects)",
+      "url": "https://indiankanoon.org/doc/93399180/",
+      "kind": "Judicial text on public mirror",
+      "summary": "National Green Tribunal, Principal Bench. Panchsheel Hynish is one of 40 named project proponents (respondents 9 to 48) in a case on illegal groundwater extraction in an over-exploited area. A joint committee had field-checked 33 projects and found 25 drawing water illegally; the order does not say whether Hynish was among those checked and makes no finding about it by name. General directions to all proponents: seal illegal borewells; deposit interim compensation of at least 0.5% of project cost with the District Magistrate and the State Pollution Control Board within a month; a joint committee to assess final compensation; apply for consents within a month or face closure; digital water meters. UPPCB compliance report due 15 May 2023; next listing 3 Jul 2023. Read 14 Nov 2026.",
+      "path": "",
+      "date": "2022-11-15"
+    },
+    {
+      "id": "S116",
+      "title": "NCDRC order of 1 Jul 2024, Consumer Case 2943/2017 (villa buyers v. Panchsheel Buildtech and its directors)",
+      "url": "https://indiankanoon.org/doc/105343340/",
+      "kind": "Judicial text on public mirror",
+      "summary": "National Consumer Disputes Redressal Commission. The dispute is about a villa in the builder's Panchsheel Green II / Panchsheel Villas project (GH-01A, Sector 16), not Hynish. The buyers alleged that the builder launched other projects, including Hynish, while theirs was incomplete and diverted money to them; the builder denied it and the Commission made no finding on that allegation. Complaint partly allowed with Rs 50,000 costs: remove listed defects, complete the villa, parking, 6% interest credit for Dec 2017 to Mar 2020, sub-lease and possession within two months. Read 14 Nov 2026.",
+      "path": "",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "S117",
+      "title": "News report on Hynish homebuyers quoted in 2023 U.P. State Consumer Commission judgments",
+      "url": "https://indiankanoon.org/doc/122950355/",
+      "kind": "Quoted news report (unattributed) inside a judgment",
+      "summary": "At least eight U.P. State Consumer Commission judgments of Feb-Mar 2023 (for example Sharan Agarwal v. Ansal Properties, 16 Mar 2023) quote, among examples of builders demanding extra money, an unattributed news passage: homebuyers of Panchsheel Hynish were surprised when the builder asked them to pay an additional Rs 1,60,000 to start possession; the builder's stated reason related to extra FAR and additional compensation to farmers, and another charge was for increasing each flat by 10 sq ft without buyers' consent. The judgments are not about Hynish, name no newspaper or date, and make no finding on it. Read 14 Nov 2026.",
+      "path": "",
+      "date": "2023-03-16"
     }
   ],
   "timeline": [
@@ -1014,6 +1041,18 @@
       "sources": [
         "S58",
         "S56"
+      ],
+      "case": ""
+    },
+    {
+      "id": "W31",
+      "date": "2022-11-15",
+      "title": "Green Tribunal orders interim groundwater compensation from Noida projects, Hynish among those named",
+      "topic": "Related cases",
+      "status": "Judicial record (no finding about Hynish by name)",
+      "body": "OA 392/2022: illegal borewells to be sealed and every named project proponent to deposit at least 0.5% of project cost as interim compensation within a month, pending a committee assessment.",
+      "sources": [
+        "S115"
       ],
       "case": ""
     },

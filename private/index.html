@@ -44,10 +44,10 @@ $('#f').addEventListener('submit',async e=>{
     const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(cfg.salt),iterations:cfg.iterations,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
     const m=new Uint8Array(await (await fetch('manifest.bin',{cache:'no-store'})).arrayBuffer());
     try{await crypto.subtle.decrypt({name:'AES-GCM',iv:m.slice(0,12)},key,m.slice(12))}catch(_){say('Wrong password.',true);return}
-    await tx('readwrite',s=>s.put(key,'key'));await ready;$('#pw').value='';location.href='app/index.html';
+    await tx('readwrite',s=>s.put(key,'key'));await ready;$('#pw').value='';location.href='app/index.html'+(/^#case-[A-Za-z0-9]+$/.test(location.hash)?location.hash:'');
   }catch(err){say(String(err.message||err),true)}finally{$('#go').disabled=false}
 });
-$('#enter').addEventListener('click',async()=>{try{await ready;location.href='app/index.html'}catch(err){say(String(err.message||err),true)}});
+$('#enter').addEventListener('click',async()=>{try{await ready;location.href='app/index.html'+(/^#case-[A-Za-z0-9]+$/.test(location.hash)?location.hash:'')}catch(err){say(String(err.message||err),true)}});
 $('#lock').addEventListener('click',async()=>{await tx('readwrite',s=>s.delete('key'));try{(await ready).active.postMessage('locked')}catch(_){}show(false);say('Locked. This browser can no longer open the private edition without the password.')});
 })();
 </script>
